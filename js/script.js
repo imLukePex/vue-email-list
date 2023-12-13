@@ -22,7 +22,7 @@ createApp({
                 // const result = response.data;
                 this.email = email.data.response;
                 this.mailArray.push(this.email);
-                console.log(email.data.response);
+                console.log("Email generata: " + email.data.response);
             })
 
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
@@ -30,7 +30,7 @@ createApp({
                 // const result = response.data;
                 this.email = email.data.response;
                 this.mailArray.push(this.email);
-                console.log(email.data.response);
+                console.log("Email generata: " + email.data.response);
             })
 
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
@@ -38,7 +38,7 @@ createApp({
             // const result = response.data;
             this.email = email.data.response;
             this.mailArray.push(this.email);
-            console.log(email.data.response);
+            console.log("Email generata: " + email.data.response);
         })
 
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
@@ -46,7 +46,7 @@ createApp({
             // const result = response.data;
             this.email = email.data.response;
             this.mailArray.push(this.email);
-            console.log(email.data.response);
+            console.log("Email generata: " + email.data.response);
         })
 
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
@@ -54,7 +54,7 @@ createApp({
             // const result = response.data;
             this.email = email.data.response;
             this.mailArray.push(this.email);
-            console.log(email.data.response);
+            console.log("Email generata: " + email.data.response);
         })
 
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
@@ -62,7 +62,7 @@ createApp({
             // const result = response.data;
             this.email = email.data.response;
             this.mailArray.push(this.email);
-            console.log(email.data.response);
+            console.log("Email generata: " + email.data.response);
         })
 
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
@@ -70,7 +70,7 @@ createApp({
             // const result = response.data;
             this.email = email.data.response;
             this.mailArray.push(this.email);
-            console.log(email.data.response);
+            console.log("Email generata: " + email.data.response);
         })
 
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
@@ -78,7 +78,7 @@ createApp({
             // const result = response.data;
             this.email = email.data.response;
             this.mailArray.push(this.email);
-            console.log(email.data.response);
+            console.log("Email generata: " + email.data.response);
         })
 
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
@@ -86,7 +86,7 @@ createApp({
             // const result = response.data;
             this.email = email.data.response;
             this.mailArray.push(this.email);
-            console.log(email.data.response);
+            console.log("Email generata: " + email.data.response);
         })
 
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
@@ -94,7 +94,7 @@ createApp({
             // const result = response.data;
             this.email = email.data.response;
             this.mailArray.push(this.email);
-            console.log(email.data.response);
+            console.log("Email generata: " + email.data.response);
         });
     }
 }).mount('#app')
