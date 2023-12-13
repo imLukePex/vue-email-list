@@ -7,7 +7,7 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            
+           mail: 0 
         }
     },
     methods: {
@@ -15,5 +15,12 @@ createApp({
     },
     mounted() {
         console.log("L'applicazione è caricata!!");
+
+        axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
+            .then((response) => {
+                // const result = response.data;
+                console.log(response.data.response);
+                this.mail = response.data.response;
+            });
     }
 }).mount('#app')
