@@ -19,12 +19,12 @@ createApp({
 
         for (let i = 0; i < 10; i++) {
 
-        axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
-            .then((email) => {
-                // const result = response.data;
-                this.email = email.data.response;
-                this.mailArray.push(this.email);
-                console.log("Email generata: " + email.data.response);
+            axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
+                .then((email) => {
+                    // const result = response.data;
+                    this.email = email.data.response;
+                    this.mailArray.push(this.email);
+                    console.log("Email generata: " + email.data.response);
             });
         }    
     }
